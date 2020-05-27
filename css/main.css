@@ -2474,16 +2474,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767px) {
   .banner-left {
     margin-top: 200px;
+    margin-bottom: 200px;
   }
 }
 
 .banner-right {
-  text-align: center;
+  text-align: left;
+  font-size: 18px;
 }
 
 @media (max-width: 991px) {
   .banner-right {
-    align-self: center !important;
+    align-self: left !important;
   }
 }
 
@@ -2558,7 +2560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 318px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: grid;
 }
 
 .single-services:hover h4 {
@@ -4505,7 +4507,7 @@ dl.accordion.time-line:before {
 .det_img {
   opacity: 1;
   display: block;
-  width: 50%;
+  width: 70%;
   height: auto;
 /*  transition: .5s ease;
   backface-visibility: hidden;*/
@@ -4598,4 +4600,16 @@ margin: 20px;
   /*height: 80%;*/
   /*height: 50%*/
 }
+}
+
+.img-size{
+  display: grid;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+    grid-gap: 20px;
+    border: none;
+  width: 50 em;
+  height: auto;
+
 }
