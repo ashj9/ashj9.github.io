@@ -31,7 +31,7 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
-<header id="header">
+			<header id="header">
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 		    		Ashish Kubade
@@ -67,11 +67,20 @@
 		                        <p>We are working on increasing the resolution of DEMs. Our current research work has been accepted at <a href="https://igarss2020.org/">IGARSS'2020</a>.</p>
 		                    </div>
 		                </div>
-		            </div>						
-					<div id="DEM" class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<img class="image img-fluid" src="img/dem.png" alt="">
+		            </div>	
+
+		            <div class="grid">					
+						<div id="DEM" class="row ">
+						
+							<div class="col-lg-5 col-md-6 single-services">
+								<img class="image img-fluid " src="img/dem.png" alt="">
+							</div>
+
+							<div class="col-lg-5 col-md-6 single-services">
+								<img class="image img-fluid " src="img/st2.png" alt="">
+							</div>
+
+							<div class="col-lg-5 col-md-6 single-services">	
 								<h4>DEM Super-resolution</h4>
 								<p>
 									We are using Feedback based neural network, that iteratively refines the Lower resolution DEM and generates a Higer Resolution DEM> Our networks is able to super-resolve upto 8x with retaining fidelity to ground truth DEM.
@@ -79,10 +88,11 @@
 
 								<a href="index.html#PROJECTS">Back to Projects</a>
 							</div>
-						</div>
-						<div id="ST" class="col-lg-4 col-md-6">
-							<div class="single-services">
-								<img class="image img-fluid" src="img/st2.png" alt="">
+
+						
+						<!-- <div id="ST" class="col-lg-4 col-md-6"> -->
+
+								<div class="col-lg-5 col-md-6 single-services">
 								<h4>Terrain Generation</h4>
 								<p>
 									Given a sketch based cues, we are able to generate a realistic terrain. This research is initial stage.
@@ -92,6 +102,7 @@
 							</div>
 						</div>
 													
+					
 					</div>
 				</div>	
 			</section>
